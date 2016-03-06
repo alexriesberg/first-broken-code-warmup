@@ -39,3 +39,19 @@ h3 {
   line-height: 1.6;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: 95%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .headline {
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    overflow-wrap: normal;
+  }
+}
